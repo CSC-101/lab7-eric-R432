@@ -6,3 +6,4 @@ def str_to_float (a_str:str)-> Optional[float]:
         return float(a_str)
     except ValueError:
         return None
+
